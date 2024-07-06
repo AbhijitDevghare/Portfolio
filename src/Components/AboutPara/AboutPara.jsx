@@ -1,4 +1,4 @@
-import "./aboutPara.css";
+import "./AboutPara.css";
 
 function AboutPara()
 {
