@@ -1,0 +1,17 @@
+.heroSection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 60px 0px;
+}
+
+@media (max-width: 600px) {
+   .heroSection
+   {
+    gap: 20px;
+   }
+}

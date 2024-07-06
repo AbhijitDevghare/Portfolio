@@ -1,0 +1,14 @@
+.header
+{
+    display: flex;
+    padding:  25px;
+    height: auto;
+    /* background: #000000de; */
+    background-color: #b3aea7;
+    position: fixed;
+    width: 100vw;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 10;
+
+}

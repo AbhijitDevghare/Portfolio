@@ -1,0 +1,63 @@
+.menuBar
+{
+    display: flex;
+    gap: 30px;
+    
+}
+
+
+.nav-link {
+    color: black;
+    font-size: 19px;
+    padding: 6px 18px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+.nav-link:hover {
+    background: white;
+    border-radius: 16px;
+    color: black;
+    transition-duration: 0.1s;
+
+  }
+  
+
+
+/* Styling for the active navigation link */
+.active {
+font-size: 19px;
+  background: deeppink;
+  border-radius: 16px;
+    padding: 6px 18px;
+  color: white;
+  transition-duration: 0.1s;
+  text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+  .menuBar
+  {
+      display: flex;
+      gap: 20px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+  
+.nav-link:hover {
+    border-radius: 15px;
+  }
+  
+
+
+/* Styling for the active navigation link */
+.active {
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+}

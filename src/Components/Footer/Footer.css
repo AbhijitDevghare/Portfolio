@@ -1,0 +1,44 @@
+footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(7, 228, 7); */
+    background-color: #b3aea7;
+    color: rgb(255, 255, 255)    ;
+    padding: 35px 0px 15px 0px;
+    width: 100vw;
+}
+
+.footerClass
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.footerClass img
+{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.logo
+{
+    height: 26px;
+    cursor: pointer;
+
+}
+
+.footerClass p
+{
+    height: 22px;
+    width: 2px;
+    background: white;
+    margin: 0px 20px;
+    color: white;
+}
+

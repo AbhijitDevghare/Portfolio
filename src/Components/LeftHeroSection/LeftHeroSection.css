@@ -1,0 +1,25 @@
+.leftHeroSection
+{
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+    /* z-index: -1; */
+}
+
+.leftHeroSection img
+{
+    width: 260px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .leftHeroSection
+    {
+        top: 20px;
+    }
+    .leftHeroSection img
+    {
+        width: 200px;
+        border-radius: 10px;
+    }
+}

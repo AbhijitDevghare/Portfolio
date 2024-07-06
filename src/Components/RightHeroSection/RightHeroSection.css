@@ -1,0 +1,101 @@
+
+#Right-Hero-Section
+{
+    height:600px ;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* margin-left: 100px; */
+    position: relative;
+    left: 0px;
+    
+}
+
+#Right-Hero-Section h1{
+    font-size: 50px;
+    line-height: 80px;
+    word-spacing: 6px;
+    color: black;
+    text-align: center;
+
+}
+
+#Right-Hero-Section h2{
+    font-size: 30px;
+    line-height: 70px;
+    word-spacing: 4px;
+    color: black;
+
+}
+
+
+#name
+{
+    display: inline;
+    font-size: 70px;
+    color: deeppink;
+}
+
+
+
+#Right-Hero-Section p
+{
+    font-size: 20px;
+    color: black;
+}
+
+#line
+{
+    height: 2px;
+    width: 500px;
+    background-color: black;
+}
+
+
+@media (max-width: 600px) {
+        
+        #Right-Hero-Section
+        {
+            height:auto ;
+            width: 600px;
+            margin: 50px 0px;
+
+            /* margin-left: 100px; */
+            left: 0px;
+            text-align: center;
+            
+        }
+
+        #Right-Hero-Section h1{
+            font-size: 30px;
+            line-height: 50px;
+
+        }
+
+        #Right-Hero-Section h2{
+            font-size: 20px;
+            line-height: 40px;
+        }
+
+
+        #name
+        {
+            font-size: 50px;
+        }
+
+
+
+        #Right-Hero-Section p
+        {
+            font-size: 20px;
+        }
+
+        #line
+        {
+            height: 2px;
+            width: 220px;
+        }
+}

@@ -1,0 +1,46 @@
+#aboutPara {
+    letter-spacing: 1px;
+    height: 100%;
+    width: 94vw;
+    background-color: #d6d2cb7a;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+#aboutPara h2
+{
+    font-size: 35px;
+    line-height: 55px;
+    color: deeppink;
+    font-weight: 700;
+}
+
+
+
+#aboutPara p
+{
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@media (max-width:600px) {
+
+    #aboutPara {
+        padding: 30px;
+    }
+    
+    #aboutPara h2
+    {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    
+    
+    #aboutPara p
+    {
+        line-height: 25px;
+        font-size: 20px;
+    }
+}
