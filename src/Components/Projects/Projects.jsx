@@ -1,5 +1,5 @@
 import "./Projects.css"
-import triFest from "../../Images/picture1.png"
+import triFest from "../../Images/Picture1.png"
 import imageStation from "../../Images/imageStation.png"
 
 function Projects()
